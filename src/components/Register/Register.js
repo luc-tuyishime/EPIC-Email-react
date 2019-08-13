@@ -11,21 +11,24 @@ const Register = () => (
       <p class="text-p">Register</p>
       <form class="div-form">
         <div class="tbox">
-          <input type="text" placeholder="Email" value="" />
+          <input type="text" placeholder="Email" />
         </div>
         <div class="tbox">
-          <input type="text" placeholder="First Name" value="" />
+          <input type="text" placeholder="First Name" />
         </div>
         <div class="tbox">
-          <input type="text" placeholder="Last Name" value="" />
+          <input type="text" placeholder="Last Name" />
         </div>
         <div class="tbox">
-          <input type="password" placeholder="Password" value="" />
+          <input type="password" placeholder="Password" />
         </div>
       </form>
       <button onclick="location.href='home.html'" class="btn" type="submit">
         Register
       </button>
+      <Link to="login">
+        <p>Login</p>
+      </Link>
     </div>
   </div>
 );
